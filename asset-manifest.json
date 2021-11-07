@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SheylaPopovich/sheyla-popovich/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/SheylaPopovich/sheyla-popovich/static/js/main.bfc28bdc.chunk.js",
+    "main.js.map": "/SheylaPopovich/sheyla-popovich/static/js/main.bfc28bdc.chunk.js.map",
+    "runtime-main.js": "/SheylaPopovich/sheyla-popovich/static/js/runtime-main.bb2cbf9e.js",
+    "runtime-main.js.map": "/SheylaPopovich/sheyla-popovich/static/js/runtime-main.bb2cbf9e.js.map",
+    "static/js/2.569fe646.chunk.js": "/SheylaPopovich/sheyla-popovich/static/js/2.569fe646.chunk.js",
+    "static/js/2.569fe646.chunk.js.map": "/SheylaPopovich/sheyla-popovich/static/js/2.569fe646.chunk.js.map",
+    "static/js/3.48d38a93.chunk.js": "/SheylaPopovich/sheyla-popovich/static/js/3.48d38a93.chunk.js",
+    "static/js/3.48d38a93.chunk.js.map": "/SheylaPopovich/sheyla-popovich/static/js/3.48d38a93.chunk.js.map",
+    "index.html": "/SheylaPopovich/sheyla-popovich/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/SheylaPopovich/sheyla-popovich/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.569fe646.chunk.js.LICENSE.txt": "/SheylaPopovich/sheyla-popovich/static/js/2.569fe646.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/SheylaPopovich/sheyla-popovich/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb2cbf9e.js",
+    "static/js/2.569fe646.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.bfc28bdc.chunk.js"
+  ]
+}
