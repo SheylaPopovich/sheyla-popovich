@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+.app{
+  height: 100vh;
+}
+
+.sections{
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: yellow;  
 }
