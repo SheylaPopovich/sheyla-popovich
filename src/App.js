@@ -1,10 +1,10 @@
-import React from 'react';
+import Topbar from "./components/topbar/Topbar.jsx";
 
 function App() {
   return(
-    <div>
-      <h1>Sheyla Popovich</h1>
-      <h2>Web Developer</h2>
+    <div className= "app">
+      <Topbar/>
+      .sections 
     </div>
   );
 }
