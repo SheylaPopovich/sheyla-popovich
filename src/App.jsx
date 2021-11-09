@@ -4,6 +4,10 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 import "./App.css";
+import Footer from "./footer";
+
+
+
 
 function App() {
   return(
@@ -14,8 +18,10 @@ function App() {
         <Portfolio/>
         <Works/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
+    
   )
 }
 
