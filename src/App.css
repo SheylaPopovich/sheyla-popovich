@@ -40,10 +40,29 @@
 
 .app{
   height: 100vh;
+ 
 }
 
 .sections{
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background-color: yellow;  
+  position: relative;
+  top: 70px;
+  scroll-snap-type: y mandatory;
+} 
+
+ ::-webkit-scrollbar { 
+    display: none; 
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start; 
+  overflow-x: hidden;
+ 
 }
