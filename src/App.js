@@ -6,10 +6,12 @@ import Contact from "./components/contact/Contact";
 //import "./App.css";
 import "./components/navbar/navbar.css";
 import Footer from "./footer";
+import Landing from "./components/landing/LandingPg"
 
 import React, { useState } from "react";
 
 function App() {
+  
   const [page, setPage] = useState("");
 
   function setHome() {
@@ -22,7 +24,9 @@ function App() {
   console.log(page);
   return (
     <div className="app">
+     
       <div className="navbarstuff">
+      
         <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
           Pops.
         </a>
@@ -39,16 +43,20 @@ function App() {
           contact me
         </a>
       </div>
+     
       <div className="sections">
+        
         {page === "about" ? (
           <Intro />
         ) : page === "contact" ? (
           <Contact />
         ) : (
           <h1>Hello</h1>
-        )}
+        )  
+        }
 
         <Footer />
+        
       </div>
     </div>
   );

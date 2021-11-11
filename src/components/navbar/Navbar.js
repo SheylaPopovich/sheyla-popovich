@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className="navbarstuff">
       <a href="#intro" className="logo" id="navbar-default" onClick={setPage('Home')}>
-        Pops.
+        Sheyla Popovich
       </a>
       <a href="#" onClick={setPage('about')}>About</a>
       <a href="#" >portfolio</a>
@@ -15,22 +15,6 @@ export default function Navbar() {
     </div>
   );
 }
-
-// <div className="wrapper">
-//       <div className="left">
-//         <a href="#intro" className="logo">
-//           Pops.
-//         </a>
-
-//       </div>
-//       <div className="right">
-//         <div className="hamburger">
-//           <span className="line1"></span>
-//           <span className="line2"></span>
-//           <span className="line3"></span>
-//         </div>
-//       </div>
-//     </div>
 
 function myFunction() {
   var x = document.getElementById("myLinks");
