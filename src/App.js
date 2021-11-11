@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
-//import "./App.css";
+import "./App.css"
 import "./components/navbar/navbar.css";
 import Footer from "./footer";
 import Landing from "./components/landing/LandingPg"
@@ -61,9 +61,9 @@ function App() {
         }
         
         <Portfolio/>
-        <Footer />
+      
         <Landing />
-        
+        <Footer />
       </div>
     </div>
   );
