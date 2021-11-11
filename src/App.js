@@ -21,10 +21,11 @@ function App() {
     setPage("about");
   }
 
+    
   console.log(page);
   return (
     <div className="app">
-     
+      
       <div className="navbarstuff">
       
         <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
@@ -33,7 +34,9 @@ function App() {
         <a href="#about" onClick={setAbout}>
           About
         </a>
-        <a href="#">portfolio</a>
+        <a href="#" onClick={()=>{
+          setPage("portfolio"); 
+        }}>portfolio testing</a>
         <a
           href="#"
           onClick={() => {
@@ -48,14 +51,18 @@ function App() {
         
         {page === "about" ? (
           <Intro />
-        ) : page === "contact" ? (
+               
+        )
+        : page === "contact" ? (
           <Contact />
         ) : (
           <h1>Hello</h1>
         )  
         }
-
+        
+        <Portfolio/>
         <Footer />
+        <Landing/>
         
       </div>
     </div>
