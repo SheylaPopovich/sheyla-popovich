@@ -1,8 +1,12 @@
-//import "./portfolio.css"
+import "./portfolio.css"
 import React from "react";
 import Project1 from "../../images/getflexedv2.png";
 import Project2 from "../../images/cfi_steph.png";
 import Project3 from "../../images/team_generator.png";
+import Project4 from "../../images/get_flexed.png";
+import Project5 from "../../images/coding_quiz.png"
+import Project6 from "../../images/work_day_scheduler.png";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function Portfolio() {
   return (
@@ -96,13 +100,13 @@ function Portfolio() {
  
 </div>
 
-{/* <div class="col-xs-12 col-sm-6 col-md-4">
+ <div class="col-xs-12 col-sm-6 col-md-4">
 
   <div class="card">
 
     
     <div class="view overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"></img>
+      <img class="card-img-top" src={Project4} alt="Card image cap"></img>
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -111,7 +115,7 @@ function Portfolio() {
     
     <div class="card-body">
 
-      <h4 class="card-title">4 Card title</h4>
+      <h4 class="card-title">Get Flexed</h4>
      
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      
@@ -129,7 +133,7 @@ function Portfolio() {
 
   
     <div class="view overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap"></img>
+      <img class="card-img-top" src={Project5} alt="Card image cap"></img>
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -139,7 +143,7 @@ function Portfolio() {
     <div class="card-body">
 
     
-      <h4 class="card-title">5 Card title</h4>
+      <h4 class="card-title">Coding Quiz</h4>
   
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      
@@ -156,7 +160,7 @@ function Portfolio() {
   <div class="card mb-4">
 
     <div class="view overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap"></img>
+      <img class="card-img-top" src={Project6} alt="Card image cap"></img>
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -166,7 +170,7 @@ function Portfolio() {
     <div class="card-body">
 
       
-      <h4 class="card-title">6 Card title</h4>
+      <h4 class="card-title">Day Scheduler</h4>
       
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      
@@ -176,7 +180,7 @@ function Portfolio() {
 
   </div>
  
-</div> */}
+</div> 
 
 
   

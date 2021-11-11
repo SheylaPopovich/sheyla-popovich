@@ -62,7 +62,7 @@ function App() {
         
         <Portfolio/>
         <Footer />
-        <Landing/>
+        <Landing />
         
       </div>
     </div>
