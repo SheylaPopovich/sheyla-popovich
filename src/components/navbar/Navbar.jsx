@@ -3,7 +3,7 @@ import "./navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <a href="#intro" className="logo">
+      <a href="#intro" className="logo" id="navbar-default">
                 Pops.
       </a>
       <a href="#works">
@@ -18,6 +18,10 @@ export default function Navbar() {
     </div>
   )
 }
+
+
+
+
 
 
 // <div className="wrapper">
@@ -36,3 +40,21 @@ export default function Navbar() {
 //         </div>
 //       </div>
 //     </div> 
+
+
+
+
+
+
+
+
+
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
