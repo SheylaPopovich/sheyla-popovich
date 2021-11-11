@@ -1,15 +1,17 @@
 .intro{
- background-color: rgb(255, 255, 255);
+background-color: white;
  display: flex;
 }
 
 .left {
 flex: 0.5;
+background-color: #e8eae300;
 
 }
 
 .right{
 flex: 0.5;
+background-color:#E8EAE3;
 
 }
 
@@ -20,7 +22,29 @@ flex: 0.5;
 
 img{
     height: 70%;
-    border-bottom-left-radius: 50%;
-    display: flex;
+      
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
+}
+
+.wrapper{
+    align-items: center;
+  
+}
+h1,h2, h3, p{
+  height: auto;
+  padding-left: 13%;
+}
+
+h1{
+    color: #FA2742;
+}
+
+p{
+    padding:10%;
 }
