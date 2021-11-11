@@ -10,8 +10,9 @@ export default function Navbar() {
         Sheyla Popovich
       </a>
       <a href="#" onClick={setPage('about')}>About</a>
-      <a href="#" >portfolio</a>
-      <a href="#">contact me</a>
+      <a href="#" >Portfolio</a>
+      <a href="#">Resume</a>
+      <a href="#">Contact me</a>
     </div>
   );
 }

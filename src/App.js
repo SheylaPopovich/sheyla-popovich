@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 import "./App.css"
 import "./components/navbar/navbar.css";
 import Footer from "./footer";
-import Landing from "./components/landing/LandingPg"
+import Landing from "./components/landing/LandingPg";
+import Resume from "./components/resume/ResumeP"
 
 import React, { useState } from "react";
 
@@ -36,15 +36,15 @@ function App() {
         </a>
         <a href="#" onClick={()=>{
           setPage("portfolio"); 
-        }}>portfolio testing</a>
+        }}>Projects</a>
         <a
           href="#"
           onClick={() => {
             setPage("contact");
-          }}
-        >
-          contact me
-        </a>
+          }}>Contact me</a>
+          <a href="#" onClick={()=>{
+          setPage("resume"); 
+        }}>Resume</a>
       </div>
      
       <div className="sections">
@@ -61,8 +61,7 @@ function App() {
         }
         
         <Portfolio/>
-      
-        <Landing />
+            <Landing />
         <Footer />
       </div>
     </div>
