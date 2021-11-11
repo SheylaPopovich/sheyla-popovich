@@ -53,7 +53,7 @@ span{
 }  */
 
 
-.navbar {
+.navbarStuff {
    background-color: #333; /* Black background color */
    position: fixed; /* Make it stick/fixed */
    top: 0; /* Stay on top */
@@ -62,7 +62,7 @@ span{
 }
 
 /* Links inside the navbar */
-.navbar a {
+.navbarStuff a {
    float: left;
    display: block;
    color: white;

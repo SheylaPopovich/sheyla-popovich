@@ -1,36 +1,27 @@
-import "./navbar.css";
+//import "./navbar.css";
+import React, {useState} from "react";
+
 
 export default function Navbar() {
+  const [page, setPage]= useState('Home')
   return (
-    <div className="navbar">
-      <a href="#intro" className="logo" id="navbar-default">
-                Pops.
+    <div className="navbarstuff">
+      <a href="#intro" className="logo" id="navbar-default" onClick={setPage('Home')}>
+        Pops.
       </a>
-      <a href="#works">
-      works
-        </a>
-        <a href="#portfolio">
-      portfolio
-        </a>
-        <a href="#contact">
-      contact me
-        </a>
+      <a href="#" onClick={setPage('about')}>About</a>
+      <a href="#" >portfolio</a>
+      <a href="#">contact me</a>
     </div>
-  )
+  );
 }
-
-
-
-
-
 
 // <div className="wrapper">
 //       <div className="left">
 //         <a href="#intro" className="logo">
 //           Pops.
 //         </a>
-       
-       
+
 //       </div>
 //       <div className="right">
 //         <div className="hamburger">
@@ -39,16 +30,7 @@ export default function Navbar() {
 //           <span className="line3"></span>
 //         </div>
 //       </div>
-//     </div> 
-
-
-
-
-
-
-
-
-
+//     </div>
 
 function myFunction() {
   var x = document.getElementById("myLinks");
