@@ -11,7 +11,7 @@ export default function Navbar() {
       </a>
       <a href="#" onClick={setPage('about')}>About</a>
       <a href="#" >Portfolio</a>
-      <a href="#">Resume</a>
+      <a href="#" >Resume</a>
       <a href="#">Contact me</a>
     </div>
   );
