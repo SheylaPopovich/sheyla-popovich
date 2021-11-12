@@ -1,20 +1,51 @@
 import React from "react";
 
-
 const Footer = () => (
-    <footer className="footer" >
-        <a href="https://github.com/SheylaPopovich"class="btn btn-social-icon btn-github" target="_blank">
-    <span class="fa fa-github fa-2x"></span>
-  </a>
+  <div>
+    <div className="row card-footer fixed-bottom text-center">
+      <p className="col-4">
+        <a
+          href="https://github.com/SheylaPopovich"
+          class="btn btn-social-icon btn-github"
+          target="_blank"
+        >
+          <span class="fa fa-github fa-2x"></span>
+        </a>
+      </p>
+      <p className="col-4">
+        <a
+          href="https://www.linkedin.com/in/sheyla-popovich-fsd/"
+          class="btn btn-social-icon btn-linkedin"
+          target="_blank"
+        >
+          <span class="fa-2x fab fa-linkedin"></span>
+        </a>
+      </p>
+      <p className="col-4">
+        <a
+          href="https://www.instagram.com/sheyla_popovich/"
+          class="btn btn-social-icon btn-instagram"
+          target="_blank"
+        >
+          <span class="fa fa-instagram fa-2x "></span>
+        </a>
+      </p>
+    </div>
+  </div>
+);
 
-  <a href="https://www.instagram.com/sheyla_popovich/" class="btn btn-social-icon btn-instagram" target="_blank">
-    <span class="fa fa-instagram fa-2x "></span>
-  </a>
+export default Footer;
 
-  <a href="https://www.linkedin.com/in/sheyla-popovich-fsd/"class="btn btn-social-icon btn-linkedin" target="_blank">
-    <span class="fa-2x fab fa-linkedin"></span>
-  </a>
-    </footer>
-  );
-    
-  export default Footer;
+// <footer className="footer " >
+// <a href="https://github.com/SheylaPopovich"class="btn btn-social-icon btn-github" target="_blank">
+// <span class="fa fa-github fa-2x"></span>
+// </a>
+
+// <a href="https://www.instagram.com/sheyla_popovich/" class="btn btn-social-icon btn-instagram" target="_blank">
+// <span class="fa fa-instagram fa-2x "></span>
+// </a>
+
+// <a href="https://www.linkedin.com/in/sheyla-popovich-fsd/"class="btn btn-social-icon btn-linkedin" target="_blank">
+// <span class="fa-2x fab fa-linkedin"></span>
+// </a>
+// </footer>
