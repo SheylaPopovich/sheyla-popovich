@@ -6,8 +6,6 @@ import "./App.css"
 import "./components/navbar/navbar.css";
 import Footer from "./footer";
 import Landing from "./components/landing/LandingPg";
-import Resume from "./components/resume/ResumeP"
-
 import React, { useState } from "react";
 
 function App() {
@@ -20,16 +18,20 @@ function App() {
   function setAbout() {
     setPage("about");
   }
+  function setLanding(){
+    setPage()
+  }
 
     
-  console.log(page);
+  console.log(page)
   return (
     <div className="app">
-      
+  
       <div className="navbarstuff">
       
-        <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
+        <a href="#intro" className="logo" id="navbar-default" onClick={setHome} >
           Pops.
+          
         </a>
         <a href="#about" onClick={setAbout}>
           About
@@ -50,8 +52,11 @@ function App() {
       <div className="sections">
         
         {page === "about" ? (
+        
           <Intro />
-               
+        
+          
+             
         )
         : page === "contact" ? (
           <Contact />
@@ -60,8 +65,15 @@ function App() {
         )  
         }
         
-        <Portfolio/>
-            <Landing />
+        {page === "portfolio" ?(
+          <Portfolio/>
+        ) : (
+          <p></p>
+        )
+      }
+
+{/* <Landing /> */}
+        
         <Footer />
       </div>
     </div>
