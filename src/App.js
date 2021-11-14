@@ -19,7 +19,9 @@ function App() {
   function setAbout() {
     setPage("about");
   }
- 
+  function setLanding() {
+    setPage();
+  }
 
   console.log(page);
   return (
@@ -28,8 +30,8 @@ function App() {
      
   
       <nav className="navbarstuff navbar-expand-md navbar-dark ">
-        <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
-         Sheyla Popovich
+        <a href="#intro" className="logo" id="navbar-default" >
+        Sheyla Popovich 
         </a>
         <button
           class="navbar-toggler"
@@ -85,7 +87,8 @@ function App() {
       </nav>
 
       <div className="sections">
-        {page === "about" ? (
+      
+                {page === "about" ? (
           <div>
             <Intro />
           </div>
@@ -101,9 +104,9 @@ function App() {
           <p>testing</p>
         )}
 
-    
+        {page === "portfolio" ? <Portfolio /> : <p></p>}
         {page === "Resume" ? <Resume /> : <p></p>}
-{/* <Landing/> */}
+
         <Footer />
       </div>
     </div>

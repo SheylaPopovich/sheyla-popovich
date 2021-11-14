@@ -7,7 +7,7 @@ const Footer = () => (
         <a
           href="https://github.com/SheylaPopovich"
           class="btn btn-social-icon btn-github"
-          target="_blank"
+          target="_blank" 
         >
           <span class="fa fa-github fa-2x"></span>
         </a>
@@ -35,17 +35,3 @@ const Footer = () => (
 );
 
 export default Footer;
-
-// <footer className="footer " >
-// <a href="https://github.com/SheylaPopovich"class="btn btn-social-icon btn-github" target="_blank">
-// <span class="fa fa-github fa-2x"></span>
-// </a>
-
-// <a href="https://www.instagram.com/sheyla_popovich/" class="btn btn-social-icon btn-instagram" target="_blank">
-// <span class="fa fa-instagram fa-2x "></span>
-// </a>
-
-// <a href="https://www.linkedin.com/in/sheyla-popovich-fsd/"class="btn btn-social-icon btn-linkedin" target="_blank">
-// <span class="fa-2x fab fa-linkedin"></span>
-// </a>
-// </footer>

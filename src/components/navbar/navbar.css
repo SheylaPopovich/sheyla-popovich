@@ -1,28 +1,21 @@
 .navbarstuff {
-   background-color: #293242;
-   position: fixed; 
-   top: 0; 
-   width: 100%; 
-   transition: top 0.3s; 
+  background-color: #12151c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
-/* Links inside the navbar */
 .navbarstuff a {
-   float: left;
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 15px;
-   text-decoration: none;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
-/* Change background on mouse-over */
 .navbarstuff a:hover {
-  background: #ddd;
+  background: #531516;
   color: black;
-}
-
-#navbarstuff-default{
-   background-color: #1c3588;
-   border-color: #E7E7E7;
 }
