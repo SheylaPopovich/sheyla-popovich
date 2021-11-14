@@ -8,7 +8,7 @@ export default function Navbar() {
       <a
         href="#intro"
         className="logo"
-        id="navbar-default"
+        id="nameMain"
         onClick={setPage("Home")}
       >
         Sheyla Popovich

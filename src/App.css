@@ -22,3 +22,9 @@
 html{
   margin-top: 5%;
 }
+
+#nameMain{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size:large;
+  color: #ffffff;
+}

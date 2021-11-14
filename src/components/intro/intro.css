@@ -1,53 +1,46 @@
-html{
- margin-top: 1.5%;
- overflow: hidden; 
+html {
+  overflow: hidden;
 }
-.intro{
-background-color: white;
- display: flex;
- margin-top: 2%;
- padding-top: 4%;
+
+.intro {
+  background-color: white;
+  display: flex;
+  margin-top: -1%;
+
+  
 }
 
 .left {
-flex: 0.5;
-background-color: #73922500;
-height: auto;
+  flex: 0.5;
+  background-color: #73922500;
+  height: auto;
+}
+
+.right {
+  flex: 0.5;
+  height: auto; 
 
 }
 
-.right{
-flex: 0.5;
-background-color: #531516;
-height: auto;
+#profilePic {
 
+  display: block;
+  /* height: auto%;
+  max-width: 100%; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-#profilePic{
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-    display:block;
-    height: auto%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-
-}
-
-#name{
-  font-family: 'Montserrat Subrayada', sans-serif;
+#name {
+  font-family: "Montserrat Subrayada", sans-serif;
   font-size: xxx-large;
   color: #531516;
 }
 
-h3{
-
-  text-align:center;
+h3 {
+  text-align: center;
 }
 
-
-#bio{
-    padding:10%;
+#bio {
+  padding: 10%;
 }

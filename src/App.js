@@ -9,7 +9,6 @@ import Landing from "./components/landing/LandingPg";
 import React, { useState } from "react";
 import Resume from "./components/resume/ResumeP";
 
-
 function App() {
   const [page, setPage] = useState("Landing");
 
@@ -25,13 +24,10 @@ function App() {
 
   console.log(page);
   return (
-    
     <div className="app">
-     
-  
       <nav className="navbarstuff navbar-expand-md navbar-dark ">
-        <a href="#intro" className="logo" id="navbar-default" >
-        Sheyla Popovich 
+        <a  className="logo" id="nameMain">
+          Sheyla Popovich
         </a>
         <button
           class="navbar-toggler"
@@ -42,53 +38,43 @@ function App() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-         
           <ul className="navbar-nav ">
             <li className="nav-item">
-          <a href="#about" onClick={setAbout}>
-            About
-          </a>
-          </li>
-        
-          <li className="nav-item">
-          <a
-            href="#portfolio"
-            onClick={() => {
-              setPage("portfolio");
-            }}
-          >
-            Projects
-          </a>
-          </li>
-         
-          <li className="nav-item">
-          <a
-            href="#contact"
-            onClick={() => {
-              setPage("contact");
-            }}
-          >
-            Contact me
-          </a>
-         </li>
-         <li className="nav-item">
-          <a
-            href="#resume"
-            onClick={() => {
-              setPage("Resume");
-            }}
-          >
-            Resume
-            {/* <Resume /> */}
-          </a>
-          </li>
+              <a href="#about" onClick={setAbout}>
+                About
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a
+                href="#portfolio"
+                onClick={() => {
+                  setPage("portfolio");
+                }}
+              >
+                Projects
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a
+                href="#contact"
+                onClick={() => {
+                  setPage("contact");
+                }}
+              >
+                Contact me
+              </a>
+            </li>
+            <li className="nav-item">
+              <Resume />
+            </li>
           </ul>
         </div>
       </nav>
 
       <div className="sections">
-      
-                {page === "about" ? (
+        {page === "about" ? (
           <div>
             <Intro />
           </div>
