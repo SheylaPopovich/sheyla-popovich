@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sheyla-popovich/static/css/main.b4bf9cfb.chunk.css",
-    "main.js": "/sheyla-popovich/static/js/main.2e8baa7b.chunk.js",
-    "main.js.map": "/sheyla-popovich/static/js/main.2e8baa7b.chunk.js.map",
+    "main.js": "/sheyla-popovich/static/js/main.e8059da6.chunk.js",
+    "main.js.map": "/sheyla-popovich/static/js/main.e8059da6.chunk.js.map",
     "runtime-main.js": "/sheyla-popovich/static/js/runtime-main.9286be8c.js",
     "runtime-main.js.map": "/sheyla-popovich/static/js/runtime-main.9286be8c.js.map",
     "static/css/2.383c0125.chunk.css": "/sheyla-popovich/static/css/2.383c0125.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.e3a23821.chunk.js",
     "static/css/main.b4bf9cfb.chunk.css",
-    "static/js/main.2e8baa7b.chunk.js"
+    "static/js/main.e8059da6.chunk.js"
   ]
 }
