@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sheyla-popovich/static/css/main.b4bf9cfb.chunk.css",
-    "main.js": "/sheyla-popovich/static/js/main.17f00115.chunk.js",
-    "main.js.map": "/sheyla-popovich/static/js/main.17f00115.chunk.js.map",
+    "main.js": "/sheyla-popovich/static/js/main.2e8baa7b.chunk.js",
+    "main.js.map": "/sheyla-popovich/static/js/main.2e8baa7b.chunk.js.map",
     "runtime-main.js": "/sheyla-popovich/static/js/runtime-main.9286be8c.js",
     "runtime-main.js.map": "/sheyla-popovich/static/js/runtime-main.9286be8c.js.map",
     "static/css/2.383c0125.chunk.css": "/sheyla-popovich/static/css/2.383c0125.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.383c0125.chunk.css.map": "/sheyla-popovich/static/css/2.383c0125.chunk.css.map",
     "static/css/main.b4bf9cfb.chunk.css.map": "/sheyla-popovich/static/css/main.b4bf9cfb.chunk.css.map",
     "static/js/2.e3a23821.chunk.js.LICENSE.txt": "/sheyla-popovich/static/js/2.e3a23821.chunk.js.LICENSE.txt",
+    "static/media/Sheyla_Popovich_Resume.docx.dc8a4666.pdf": "/sheyla-popovich/static/media/Sheyla_Popovich_Resume.docx.dc8a4666.pdf",
     "static/media/cfi_steph.63576fee.png": "/sheyla-popovich/static/media/cfi_steph.63576fee.png",
     "static/media/coding_quiz.2c107183.png": "/sheyla-popovich/static/media/coding_quiz.2c107183.png",
     "static/media/get_flexed.bf82adfa.png": "/sheyla-popovich/static/media/get_flexed.bf82adfa.png",
@@ -25,6 +26,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.e3a23821.chunk.js",
     "static/css/main.b4bf9cfb.chunk.css",
-    "static/js/main.17f00115.chunk.js"
+    "static/js/main.2e8baa7b.chunk.js"
   ]
 }
