@@ -5,10 +5,9 @@ export default function Intro() {
   return (
     <div className="intro">
       <div className="left">
-        
-        <h1>Sheyla Popovich</h1>
-          <h2>Hi There, I'm</h2>
-          <h3>Web Developer</h3>
+          <h1>Sheyla Popovich</h1>
+          <h2>Sheyla Popovich</h2>
+          <h3>Full Stack Web Developer</h3>
           <p>
             Welcome to my portfolio! I am currently in the medical field
             transitioning into the exciting world of coding. I have a strong

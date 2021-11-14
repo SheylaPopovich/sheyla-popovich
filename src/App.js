@@ -2,14 +2,14 @@ import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
-import "./App.css"
+import "./App.css";
 import "./components/navbar/navbar.css";
 import Footer from "./footer";
 import Landing from "./components/landing/LandingPg";
 import React, { useState } from "react";
+import Resume from "./components/resume/ResumeP";
 
 function App() {
-  
   const [page, setPage] = useState("");
 
   function setHome() {
@@ -18,66 +18,76 @@ function App() {
   function setAbout() {
     setPage("about");
   }
-  function setLanding(){
-    setPage()
-  }
 
-    
-  console.log(page)
+  console.log(page);
   return (
     <div className="app">
-  
       <div className="navbarstuff">
-      
-        <a href="#intro" className="logo" id="navbar-default" onClick={setHome} >
-          Pops.
-          
+        <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
+          Pops. 
         </a>
         <a href="#about" onClick={setAbout}>
           About
         </a>
-        <a href="#" onClick={()=>{
-          setPage("portfolio"); 
-        }}>Projects</a>
         <a
-          href="#"
+          href="#portfolio"
+          onClick={() => {
+            setPage("portfolio");
+          }}
+        >
+          Projects
+        </a>
+        <a
+          href="#contact"
           onClick={() => {
             setPage("contact");
-          }}>Contact me</a>
-          <a href="#" onClick={()=>{
-          setPage("resume"); 
-        }}>Resume</a>
+          }}
+        >
+          Contact me
+        </a>
+        <a
+          href="#resume"
+          onClick={() => {
+            setPage("Resume");
+          }}
+        >
+          Resume
+       
+        </a>
       </div>
      
-      <div className="sections">
         
-        {page === "about" ? (
-        
-          <Intro />
-        
-          
-             
-        )
-        : page === "contact" ? (
-          <Contact />
-        ) : (
-          <h1>Hello</h1>
-        )  
-        }
-        
-        {page === "portfolio" ?(
-          <Portfolio/>
-        ) : (
-          <p></p>
-        )
-      }
 
-{/* <Landing /> */}
+      <div className="sections">
+     
+        {page === "about" ? (
+          <div>
+          <Intro />
+          </div>
+        ) : page === "contact" ? (
+          <div>
+          <Contact />
+          </div>
+        ) : page === "portfolio" ? (
+          <div>
+             <Portfolio />
+             </div>
+        ) :(
+          <p>testing</p>
+        )}
+    <Landing />
+         {page === "Resume" ?   <Resume />:<></>}
         
+
         <Footer />
+
+
+
+       
       </div>
     </div>
   );
 }
 
 export default App;
+

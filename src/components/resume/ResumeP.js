@@ -1,11 +1,14 @@
 import React from "react";
-
+import fileDownload from "../../assets/Sheyla_Popovich_Resume.docx.pdf"
 
 export default function Resume () {
   return(
-      <div>
-        <a src="../../images/Sheyla_Popovich_Resume.docx.pdf" download>Resume</a>
-      </div>
+  <p>
+    <a href={fileDownload} download="SheylaPopovich_Popovich" target="_blank">
+Resume 
+      </a>
+      </p>
+  
     )
   }
 
