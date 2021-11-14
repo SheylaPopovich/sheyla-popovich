@@ -25,9 +25,9 @@ function App() {
   console.log(page);
   return (
     <div className="app">
-      <nav className="navbarstuff navbar-expand-md navbar-dark">
+      <nav className="navbarstuff navbar-expand-md navbar-dark ">
         <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
-          Pops.
+         Sheyla Popovich
         </a>
         <button
           class="navbar-toggler"
@@ -39,7 +39,7 @@ function App() {
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
          
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ">
             <li className="nav-item">
           <a href="#about" onClick={setAbout}>
             About
@@ -48,7 +48,7 @@ function App() {
         
           <li className="nav-item">
           <a
-            href="#"
+            href="#portfolio"
             onClick={() => {
               setPage("portfolio");
             }}
@@ -59,7 +59,7 @@ function App() {
          
           <li className="nav-item">
           <a
-            href="#"
+            href="#contact"
             onClick={() => {
               setPage("contact");
             }}
