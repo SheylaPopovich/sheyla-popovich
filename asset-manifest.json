@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/sheyla-popovich/static/css/main.523cab7b.chunk.css",
-    "main.js": "/sheyla-popovich/static/js/main.8badfe6c.chunk.js",
-    "main.js.map": "/sheyla-popovich/static/js/main.8badfe6c.chunk.js.map",
-    "runtime-main.js": "/sheyla-popovich/static/js/runtime-main.9286be8c.js",
-    "runtime-main.js.map": "/sheyla-popovich/static/js/runtime-main.9286be8c.js.map",
+    "main.css": "/sheyla-popovich/static/css/main.b316ee8c.chunk.css",
+    "main.js": "/sheyla-popovich/static/js/main.80eb3e45.chunk.js",
+    "main.js.map": "/sheyla-popovich/static/js/main.80eb3e45.chunk.js.map",
+    "runtime-main.js": "/sheyla-popovich/static/js/runtime-main.9e992704.js",
+    "runtime-main.js.map": "/sheyla-popovich/static/js/runtime-main.9e992704.js.map",
     "static/css/2.383c0125.chunk.css": "/sheyla-popovich/static/css/2.383c0125.chunk.css",
-    "static/js/2.e3a23821.chunk.js": "/sheyla-popovich/static/js/2.e3a23821.chunk.js",
-    "static/js/2.e3a23821.chunk.js.map": "/sheyla-popovich/static/js/2.e3a23821.chunk.js.map",
+    "static/js/2.8384db84.chunk.js": "/sheyla-popovich/static/js/2.8384db84.chunk.js",
+    "static/js/2.8384db84.chunk.js.map": "/sheyla-popovich/static/js/2.8384db84.chunk.js.map",
+    "static/js/3.b4019c17.chunk.js": "/sheyla-popovich/static/js/3.b4019c17.chunk.js",
+    "static/js/3.b4019c17.chunk.js.map": "/sheyla-popovich/static/js/3.b4019c17.chunk.js.map",
     "index.html": "/sheyla-popovich/index.html",
     "static/css/2.383c0125.chunk.css.map": "/sheyla-popovich/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.523cab7b.chunk.css.map": "/sheyla-popovich/static/css/main.523cab7b.chunk.css.map",
-    "static/js/2.e3a23821.chunk.js.LICENSE.txt": "/sheyla-popovich/static/js/2.e3a23821.chunk.js.LICENSE.txt",
+    "static/css/main.b316ee8c.chunk.css.map": "/sheyla-popovich/static/css/main.b316ee8c.chunk.css.map",
+    "static/js/2.8384db84.chunk.js.LICENSE.txt": "/sheyla-popovich/static/js/2.8384db84.chunk.js.LICENSE.txt",
     "static/media/Sheyla_Popovich_Resume.docx.dc8a4666.pdf": "/sheyla-popovich/static/media/Sheyla_Popovich_Resume.docx.dc8a4666.pdf",
     "static/media/cfi_steph.63576fee.png": "/sheyla-popovich/static/media/cfi_steph.63576fee.png",
     "static/media/coding_quiz.2c107183.png": "/sheyla-popovich/static/media/coding_quiz.2c107183.png",
@@ -22,10 +24,10 @@
     "static/media/work_day_scheduler.068934bd.png": "/sheyla-popovich/static/media/work_day_scheduler.068934bd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9286be8c.js",
+    "static/js/runtime-main.9e992704.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.e3a23821.chunk.js",
-    "static/css/main.523cab7b.chunk.css",
-    "static/js/main.8badfe6c.chunk.js"
+    "static/js/2.8384db84.chunk.js",
+    "static/css/main.b316ee8c.chunk.css",
+    "static/js/main.80eb3e45.chunk.js"
   ]
 }
