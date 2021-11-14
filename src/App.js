@@ -9,8 +9,9 @@ import Landing from "./components/landing/LandingPg";
 import React, { useState } from "react";
 import Resume from "./components/resume/ResumeP";
 
+
 function App() {
-  const [page, setPage] = useState("");
+  const [page, setPage] = useState("Landing");
 
   function setHome() {
     setPage("");
@@ -18,13 +19,14 @@ function App() {
   function setAbout() {
     setPage("about");
   }
-  function setLanding() {
-    setPage();
-  }
+ 
 
   console.log(page);
   return (
+    
     <div className="app">
+     
+  
       <nav className="navbarstuff navbar-expand-md navbar-dark ">
         <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
          Sheyla Popovich
@@ -99,9 +101,9 @@ function App() {
           <p>testing</p>
         )}
 
-        {page === "portfolio" ? <Portfolio /> : <p></p>}
+    
         {page === "Resume" ? <Resume /> : <p></p>}
-
+{/* <Landing/> */}
         <Footer />
       </div>
     </div>
