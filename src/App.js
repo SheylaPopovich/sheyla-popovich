@@ -18,76 +18,94 @@ function App() {
   function setAbout() {
     setPage("about");
   }
+  function setLanding() {
+    setPage();
+  }
 
   console.log(page);
   return (
     <div className="app">
-      <div className="navbarstuff">
+      <nav className="navbarstuff navbar-expand-md navbar-dark">
         <a href="#intro" className="logo" id="navbar-default" onClick={setHome}>
-          Pops. 
+          Pops.
         </a>
-        <a href="#about" onClick={setAbout}>
-          About
-        </a>
-        <a
-          href="#portfolio"
-          onClick={() => {
-            setPage("portfolio");
-          }}
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
         >
-          Projects
-        </a>
-        <a
-          href="#contact"
-          onClick={() => {
-            setPage("contact");
-          }}
-        >
-          Contact me
-        </a>
-        <a
-          href="#resume"
-          onClick={() => {
-            setPage("Resume");
-          }}
-        >
-          Resume
-       
-        </a>
-      </div>
-     
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         
+          <ul className="navbar-nav">
+            <li className="nav-item">
+          <a href="#about" onClick={setAbout}>
+            About
+          </a>
+          </li>
         
+          <li className="nav-item">
+          <a
+            href="#"
+            onClick={() => {
+              setPage("portfolio");
+            }}
+          >
+            Projects
+          </a>
+          </li>
+         
+          <li className="nav-item">
+          <a
+            href="#"
+            onClick={() => {
+              setPage("contact");
+            }}
+          >
+            Contact me
+          </a>
+         </li>
+         <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => {
+              setPage("Resume");
+            }}
+          >
+            Resume
+            {/* <Resume /> */}
+          </a>
+          </li>
+          </ul>
+        </div>
+      </nav>
 
       <div className="sections">
-     
         {page === "about" ? (
           <div>
-          <Intro />
+            <Intro />
           </div>
         ) : page === "contact" ? (
           <div>
-          <Contact />
+            <Contact />
           </div>
         ) : page === "portfolio" ? (
           <div>
-             <Portfolio />
-             </div>
-        ) :(
+            <Portfolio />
+          </div>
+        ) : (
           <p>testing</p>
         )}
-    <Landing />
-         {page === "Resume" ?   <Resume />:<></>}
-        
+
+        {page === "portfolio" ? <Portfolio /> : <p></p>}
+        {page === "Resume" ? <Resume /> : <p></p>}
 
         <Footer />
-
-
-
-       
       </div>
     </div>
   );
 }
 
 export default App;
-
