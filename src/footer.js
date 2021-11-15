@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <div>
-    <div className="row card-footer fixed-bottom text-center">
+    <div className="row card-footer  text-center">
       <p className="col-4">
         <a
           href="https://github.com/SheylaPopovich"

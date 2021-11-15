@@ -34,7 +34,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue btn-primary">
                   Live Site
                 </button>
               </div>
@@ -62,7 +62,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue  btn-primary">
                   Live Site
                 </button>
               </div>
@@ -90,7 +90,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue btn-primary">
                   Live Site
                 </button>
               </div>
@@ -118,7 +118,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue  btn-primary">
                   Read more
                 </button>
               </div>
@@ -146,7 +146,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue  btn-primary">
                   Read more
                 </button>
               </div>
@@ -174,7 +174,7 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <button type="button" class="btn btn-light-blue btn-md">
+                <button type="button" class="btn btn-light-blue  btn-primary">
                   Read more
                 </button>
               </div>
