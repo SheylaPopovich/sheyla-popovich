@@ -7,7 +7,7 @@ const Footer = () => (
         <a
           href="https://github.com/SheylaPopovich"
           class="btn btn-social-icon btn-github"
-          target="_blank" 
+          target="_blank"
         >
           <span class="fa fa-github fa-2x"></span>
         </a>

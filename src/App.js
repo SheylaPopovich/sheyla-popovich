@@ -19,14 +19,20 @@ function App() {
     setPage("about");
   }
   function setLanding() {
-    setPage();
+    setPage("Landing");
   }
 
   console.log(page);
   return (
     <div className="app">
       <nav className="navbarstuff navbar-expand-md navbar-dark ">
-        <a  className="logo" id="nameMain">
+        <a
+          className="logo"
+          id="nameMain"
+          onClick={() => {
+            setPage("Landing");
+          }}
+        >
           Sheyla Popovich
         </a>
         <button
@@ -72,12 +78,13 @@ function App() {
           </ul>
         </div>
       </nav>
-
+    
       <div className="sections">
+        
         {page === "about" ? (
-          <div>
+        
             <Intro />
-          </div>
+          
         ) : page === "contact" ? (
           <div>
             <Contact />
@@ -85,16 +92,16 @@ function App() {
         ) : page === "portfolio" ? (
           <div>
             <Portfolio />
+            
           </div>
         ) : (
-          <p>testing</p>
+          <div>
+            <Landing />
+          </div>
         )}
-
-        {page === "portfolio" ? <Portfolio /> : <p></p>}
-        {page === "Resume" ? <Resume /> : <p></p>}
-
         <Footer />
       </div>
+     
     </div>
   );
 }

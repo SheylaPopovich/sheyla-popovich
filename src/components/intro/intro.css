@@ -1,6 +1,4 @@
-html {
-  overflow: hidden;
-}
+
 
 .intro {
   background-color: white;
@@ -31,12 +29,6 @@ html {
   margin-right: auto;
 }
 
-#name {
-  font-family: "Montserrat Subrayada", sans-serif;
-  font-size: xxx-large;
-  color: #531516;
-  padding-top: 6%;
-}
 
 
 

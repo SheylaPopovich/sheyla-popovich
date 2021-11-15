@@ -1,6 +1,6 @@
 .card-footer {
   padding: 0.5 rem 1 rem;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #12151c;
   border-top: 0px solid rgba(255, 255, 255, 0);
 }
 
@@ -16,15 +16,18 @@
 .fa-linkedin,
 .fa-github,
 .fa-instagram {
-  color: #531516;
+  color: white;
 }
 
-html{
+html {
   margin-top: 5%;
+  
 }
 
-#nameMain{
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size:large;
+#nameMain {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: large;
   color: #ffffff;
 }
+
+
