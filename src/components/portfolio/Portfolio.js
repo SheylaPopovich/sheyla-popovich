@@ -34,10 +34,13 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <a href="https://peaceful-dawn-49261.herokuapp.com/" target="_blank">
-                <button type="button" class="btn btn-light-blue btn-primary" >
-                Live Site
-                </button>
+                <a
+                  href="https://peaceful-dawn-49261.herokuapp.com/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue btn-primary">
+                    Live Site
+                  </button>
                 </a>
               </div>
             </div>
@@ -64,10 +67,13 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-              <a href="https://sheylapopovich.github.io/CFI-Steph/" target="_blank">
-                <button type="button" class="btn btn-light-blue  btn-primary">
-                  Live Site
-                </button>
+                <a
+                  href="https://sheylapopovich.github.io/CFI-Steph/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue  btn-primary">
+                    Live Site
+                  </button>
                 </a>
               </div>
             </div>
@@ -94,10 +100,13 @@ function Portfolio() {
                   the bulk of the card's content.
                 </p>
 
-                <a href="https://drive.google.com/file/d/1tflXE48IKSXCOYNNvRSs_UBMKOgoqlxK/preview" target="_blank">
-                <button type="button" class="btn btn-light-blue btn-primary">
-                  Live Site
-                </button>
+                <a
+                  href="https://drive.google.com/file/d/1tflXE48IKSXCOYNNvRSs_UBMKOgoqlxK/preview"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue btn-primary">
+                    Live Site
+                  </button>
                 </a>
               </div>
             </div>
@@ -123,12 +132,15 @@ function Portfolio() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="https://sheylapopovich.github.io/get-flexed/" target="_blank">
-                <button type="button" class="btn btn-light-blue  btn-primary">
-                 Live Site 
-                </button>
+                <a
+                  href="https://sheylapopovich.github.io/get-flexed/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue  btn-primary">
+                    Live Site
+                  </button>
                 </a>
-                            </div>
+              </div>
             </div>
           </div>
 
@@ -152,10 +164,13 @@ function Portfolio() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="https://sheylapopovich.github.io/coding-quiz-challenge/" target="_blank">
-                <button type="button" class="btn btn-light-blue  btn-primary">
-             Live Site
-                </button>
+                <a
+                  href="https://sheylapopovich.github.io/coding-quiz-challenge/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue  btn-primary">
+                    Live Site
+                  </button>
                 </a>
               </div>
             </div>
@@ -181,10 +196,13 @@ function Portfolio() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="https://sheylapopovich.github.io/work-day-scheduler/" target="_blank">
-                <button type="button" class="btn btn-light-blue  btn-primary">
-                Live Site
-                </button>
+                <a
+                  href="https://sheylapopovich.github.io/work-day-scheduler/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-light-blue  btn-primary">
+                    Live Site
+                  </button>
                 </a>
               </div>
             </div>

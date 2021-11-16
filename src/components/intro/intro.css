@@ -1,11 +1,7 @@
-
-
 .intro {
   background-color: white;
   display: flex;
   margin-top: -1%;
-
-  
 }
 
 .left {
@@ -15,32 +11,26 @@
 
 .right {
   flex: 0.5;
-  height: auto; 
-
+  height: auto;
 }
 
 #profilePic {
-
   display: block;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
 
 #bio {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 6%;
   font-weight: 500;
-  
 }
 
-#name{
-  color: #46BDD5;
+#name {
+  color: #46bdd5;
   margin-top: 5%;
- 
+
   font-family: "Montserrat Subrayada", sans-serif;
 }

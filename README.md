@@ -1,71 +1,66 @@
- https://sheylapopovich.github.io/sheyla-popovich/ 
-# Getting Started with Create React App
+<p align= "center" > <img src="https://raw.githubusercontent.com/SheylaPopovich/SheylaPopovich/main/pop-giphy.gif" alt="alt text" width="700" height="325"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+ <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey,+there!!+I'm+Sheyla+Popovich✌👩;........welcome+to+my+page!!!"
+      </p>
 
-In the project directory, you can run:
 
-### `npm start`
+<p> I am currently in the medical field transitioning into the  exciting world of coding. I have a strong passion for learning and unleashing my creativity in a prosperous way. During your visit if you come across a project or something that has sparked your interest, please feel free to reach out at ✉️ SheylaPopovich@gmail.com or give explore some of my other media pages. I am a firm believer that knowledge is power and sharing that knowledge is incredibly prevailing. Shoot me a message with any inquires you may have or if you would like to collab!</p>
+<br>
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+💼 Student at University Denver Boot Camp - _Full Stack Flex_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🚧 Currently studying "Complex State Management" and "Redux" 
 
-### `npm test`
+💬 Ask me anything you may be pondering 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚡ Fun Facts- Closet nerd I love documentaries and Music fixes everything! 
+<br>
+<br>
+ 
 
-### `npm run build`
+# 👀 Check Out My Work
+[Sheyla Popovich Portfolio](https://sheylapopovich.github.io/sheyla-popovich/)
+<br>
+<br>
+<img src="src\images\demo_pic.png">
+<br>
+<br>
+# ☕ Wanna Chat?
+Let's chat over Zoom or even meet up for coffe to discuss the endless possibilites!<br>_"Great discoveries and improvements invariably involve the cooperation of many minds."_ <span>-Alexander Graham Bell.</span>
+  *  Learn from each other
+  *  Share our knowledge
+  *  Grow our network
+  <br>
+   [![image](https://user-images.githubusercontent.com/84256748/132616434-3aa62bb9-5e2e-4eb3-94a4-34ebe9d9eaa0.png)](https://www.linkedin.com/in/sheyla-popovich-fsd/)
+<br>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🛠️ Built With
+My personal portfolio features some of my github projects as well as my resume and technical skills.
+This project was built using these technologies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js
+Node.js
+Express.js
+BootStrap
+VsCode
+<br>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 📑 Features
+- Multi-Page Layout
+- Styled with React-Bootstrap and Css with easy to customize colors
+- Social Media elements
+- Implementing SEO
+<br>
 
-### `npm run eject`
+<p align="center">
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=SheylaPopovich&theme=holi-theme"]"https://git.io/streak-stats">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 🤝 Show your support
+Give a ⭐ if you like this website!

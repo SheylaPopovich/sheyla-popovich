@@ -78,13 +78,10 @@ function App() {
           </ul>
         </div>
       </nav>
-    
+
       <div className="sections">
-        
         {page === "about" ? (
-        
-            <Intro />
-          
+          <Intro />
         ) : page === "contact" ? (
           <div>
             <Contact />
@@ -92,7 +89,6 @@ function App() {
         ) : page === "portfolio" ? (
           <div>
             <Portfolio />
-            
           </div>
         ) : (
           <div>
@@ -101,7 +97,6 @@ function App() {
         )}
         <Footer />
       </div>
-     
     </div>
   );
 }

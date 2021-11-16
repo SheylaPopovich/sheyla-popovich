@@ -1,16 +1,16 @@
 .contact {
-padding-top: 5%;
+  padding-top: 5%;
 }
 
-#contactForm{
-    color: white;
-    text-align: center;
+#contactForm {
+  color: white;
+  text-align: center;
 }
 
 .bg-body {
-    background-color: #531516 !important;
+  background-color: #12151c !important;
 }
 
-.formTitles{
-    color: white;
+.formTitles {
+  color: white;
 }
